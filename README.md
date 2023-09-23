@@ -9,7 +9,8 @@ a particular column **DATETIME**. Further upgrades will include different functi
 6. saving final dataset
 
 ## UI
-The software UI takes the system default theme, but can always be switched between **light** and **dark** themes.
+The software UI takes the system default theme, but can always be switched between **light** and **dark** themes. The
+interface is designed using customtkinter and tkinter (tk).
 
 #### Dark Theme
 ![](images/dark_theme.png)
