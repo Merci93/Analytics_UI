@@ -1,10 +1,10 @@
 import os
+import threading
 
 from tkinter import filedialog
 from tkinter import messagebox
 import customtkinter
 import pandas
-import threading
 
 
 customtkinter.set_appearance_mode("System")     # Modes: "System" (standard), "Dark", "Light"
@@ -201,4 +201,3 @@ class AnalyticsUI(customtkinter.CTk):
 if __name__ == "__main__":
     AUI = AnalyticsUI()
     AUI.mainloop()
-
